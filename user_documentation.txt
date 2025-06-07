@@ -1,0 +1,41 @@
+## Excel Analyzer - User Documentation
+
+### Overview
+
+The Excel Analyzer is a simple tool that lets you ask questions about data in your Excel files and get answers powered by AI.
+
+### Installation and Setup
+
+1.  **Install Python:**
+    *   Download Python 3.12 from the official website: [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/)
+    *   Run the installer.
+    *   **Important:** Make sure to check the box that says "Add Python to PATH" during the installation process. This will allow you to run Python commands from the command prompt.
+    *   Complete the installation.
+2.  **Install Required Libraries:**
+    *   Open a command prompt window.
+    *   Type the following command and press Enter:
+        `pip install streamlit pandas sentence-transformers faiss-cpu langchain google-generativeai`
+    *   Wait for the installation to complete.
+### How to Use
+
+1.  **Run the App:** Double-click the `run_app.bat` file. This will open a command prompt window and launch the Excel Analyzer in your web browser.
+2.  **Enter API Key:** In the left sidebar, you'll see a field to enter your API key. This is needed to connect to the AI model.
+3.  **Upload Excel File:** Click the "Browse files" button to upload your Excel file (`.xlsx` or `.xls` format).
+4.  **Ask a Question:** Once the file is uploaded, a text box will appear where you can type your question about the data.
+5.  **Get the Answer:** Press Enter or click outside the text box. The AI will analyze the data and provide an answer in a chat-like format below the question box.
+
+### Tips for Asking Questions
+
+*   Be specific with your questions.
+*   Use keywords that are present in your Excel data.
+*   If you don't get the answer you expect, try rephrasing your question.
+
+### Troubleshooting
+
+*   **App Doesn't Start:** Make sure you have all the necessary software installed (Python, Streamlit, etc.). If you're unsure, contact your system administrator.
+*   **No Answer:** Double-check that you've entered your API key correctly. Also, make sure your question is relevant to the data in the Excel file.
+*   **Incorrect Answer:** The AI might not always be perfect. Try rephrasing your question or providing more context.
+
+### That's It!
+
+Have fun exploring your Excel data with the Excel Analyzer!
